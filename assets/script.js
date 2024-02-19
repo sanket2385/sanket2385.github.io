@@ -1,33 +1,27 @@
 // Convert the 'terminal' DOM element into a live terminal.
 // This example defines several custom commands for the terminal.
-var terminal = new Terminal('terminal', {prompt: 'sanket&#64;webvice.co.uk&#58;&#126;', separator: '#'}, {
+var terminal = new Terminal('terminal', {prompt: 'sanket&#64;tech.leader&#58;&#126;', separator: '#'}, {
 	execute: function(cmd, args) {
 		switch (cmd) {
 
 			case 'About':
 			case 'ABOUT':
 			case 'about':
-				return '<p>Sanket is an experienced Software Engineer / Project Manager / Entrepreneur / Problem Solver { Turning complex problems into simple solutions }. </p><p>Currently working as a software developer for Dixons Carphone Group and splitting my time between a number of different clients across the world.</p>';
+				return '<p>Sanket is an experienced Technology Leader with a proven track record of driving innovation, strategy, and results in the fast-paced world of tech. Throughout my career, I have consistently demonstrated a passion for leveraging cutting-edge technologies to transform businesses and enhance operational efficiency. As a visionary leader, I thrive in leading cross-functional teams, inspiring them to excel and exceed expectations. My expertise spans Software Development, Robotic Process Automation, Chatbots, Integration, SharePoint Development, data analytics, cloud computing, and cybersecurity, enabling me to navigate complex challenges and devise comprehensive solutions. I am committed to fostering a culture of continuous learning and professional growth, recognizing that empowered and engaged teams drive success. Together, lets pioneer the future of technology and make a lasting impact in an ever-evolving digital landscape. Lets team up and explore new possibilities for innovation and growth.</p>';
 
 			case 'Skills':
 			case 'SKILLS':
 			case 'skills':
-				return '<p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;AngularJs</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;NodeJs</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;HTML5</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;CSS3</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;PHP OOP + PHP Frameworks { Laravel, Symfony, Codeigniter }</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Leadership</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Agile Project Management</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Team Mentoring</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Time Management</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Self Learning</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;And counting { Learning everyday :) }</p>';
+				return '<p>PHP, MySQL, MSSQL, .NET, C#, ReactJS, NodeJS, MongoDB, NoSQL, AWS, Azure, Google Cloud, Symfony, CodeIgniter, Laravel, ExpressJS, AngularJS, VueJS, Javascript, Wireframing tools, JIRA, Confluence, Github, Gitlab, Bitbucket, MacOS, Windows, Linux, Docker, Kubernetes, CI/CD, Trello, HTML, SFTP, FTPS, RESTAPI, SOAP, MVC Frameworks, Worspress, CSS, Teams, Slack, Skype, Kohana, Sass, SaaS, iPaaS, RPA, Chatbots, Automation Anywhere, UI Path, Enterprise Architect, Visual Studio Code, Boomi Integration Platform</p>';
 
 			case 'Services':
 			case 'SERVICES':
 			case 'services':
-				return '<p>Sanket founded <a href="http://webvice.co.uk">webvice</a> in 2014. And we provide the following services at webvice</p></p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Bespoke Web Application Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Android App Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;IOS App Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Project Management Service</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Bespoke CMS Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Sub Contracting with Digital Agencies</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Tech Partnership with Start Ups</p>';
-
-			case 'Work':
-			case 'WORK':
-			case 'work':
-				return '<p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Please visit: <a href="http://webvice.co.uk/case-studies">webvice.co.uk/case-studies</a> to see my contribution to the tech industry</p>';
-
+				return '<p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Bespoke Web Application Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Android App Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;IOS App Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Project Management Service</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Bespoke CMS Development</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Sub Contracting with Digital Agencies</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Tech Partnership with Start Ups</p>';
 			case 'Contact':
 			case 'CONTACT':
 			case 'contact':
-				return '<p>If you are looking for a solid partner for your projects, i would love to talk!</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Click here: <a href="mailto:sanket@webvice.co.uk">sanket@webvice.co.uk</a> to get in touch</p><p>Connect with me on social media</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a style="background-color: #1da1f2;" href="https://twitter.com/sanket2385" target="_blank">Twitter</a></p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a style="background-color: #4267b2;" href="https://www.facebook.com/sanket.patel2385" target="_blank">Facebook</a></p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a style="background-color: #287bbc;" href="https://uk.linkedin.com/in/sanketpatel2385" target="_blank">Linkedin</a></p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a style="background-color: #FFFC00;color:#000000;" href="https://www.snapchat.com/add/sanketpatel2385" target="_blank">Snapchat</a></p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;<a style="background-color: #9b6954;" href="https://www.instagram.com/sanket2385" target="_blank">Instagram</a></p></p>';
+				return '<p>If you are looking for a solid partner for your projects, i would love to talk!</p><p>&nbsp;&nbsp;&raquo;&nbsp;&nbsp;Click here: <a href="mailto:sanket.patel2385@gmail.com">Email Me</a> to get in touch</p>';
 
 			case 'Clear':
 			case 'CLEAR':

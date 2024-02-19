@@ -32,7 +32,7 @@
 			'<span>Last login: ' + Date() + ' on console</span>',
 			'<br>',
 			'<h1>{{ Sanket v1.0 }}</h1>',
-			'<div id="typed-strings"><b><span>Hello, you have reached the official page of <strong>Sanket v1.0</strong></span><p>He is an experienced software engineer / project manager / entrepreneur / problem solver with over 8 years of experience in the tech industry</p><p>Please type "help" to know more about sanket!</p></b></div>',
+			'<div id="typed-strings"><b><span>Hello, you have reached the official page of <strong>Sanket v1.0</strong></span><p>He is an experienced Software Engineering Leader | Certified Scrum Master | Certified Enterprise Architect | Technology Advocate | Automation & Integration Specialist with over 13 years of experience in the tech industry</p><p>Please type "help" to know more about sanket!</p></b></div>',
 			'<div id="typed"></div>',
 			'<br>',
 			'<output></output>',
